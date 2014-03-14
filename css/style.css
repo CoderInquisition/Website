@@ -1,0 +1,183 @@
+html {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+body {
+	background-image:url('../images/bg_pattern.png');
+	background-repeat: repeat;
+	font-family: 'Lato', sans-serif;
+	line-height: 130%;
+}
+img {
+	max-width: 500px;
+}
+#logo {
+	max-width: 20%;
+	margin-left: 40%;
+	padding-top: 20px;
+}
+nav  ul li{
+	display: inline;
+	padding-left: 20%;
+}
+nav a {
+	font-weight: 700;
+	color: #4196B4;
+	text-decoration: none;
+	font-size: 130%;
+}
+nav a:hover {
+	color: #FF7E2E;
+	font-style; italic;
+}
+nav {
+	background-color:#E6E6E6;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#latest_videos h1 {
+	font-size: 200%;
+	color: #E6E6E6;
+	font-weight: 700;
+	padding-left: 5%;
+}
+#latest_videos {
+	margin-top: 5px;
+	background-color: #4196B4;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	/*height: 220px;*/
+    height: 550px;      /*My Changes... Sorry Tess for touching your stuff*/
+}
+.video_placeholder {
+	background-color: black;
+	width: 27%;
+	height: 80%;
+	margin-left: 5%;
+	margin-top: 10px;
+	float: left;
+}
+#main_content img {
+	position: relative;
+	margin-top: 10%;
+    padding-bottom: 10%;
+	float:left;
+	display:inline;
+}
+#main_content {
+	width: 100%;
+	float:right;
+	margin-top: 20px;
+}
+#main_content img:last-child {
+	float: right;
+}
+#blue_triangle img{
+	margin-top: 10px;
+	width: 100%;
+}
+#our_videos img {
+	position: absolute;
+	float:left;
+	width: 40%;
+    /*margin-top: 10%;*/        /*My changes*/
+}
+#our_videos img:hover {
+	opacity: 0;
+}
+#interview_tricks img {
+	position: absolute;
+	float: left;
+	width: 40%;
+	margin-left: 50%;
+    /*margin-top: 10%;*/        /*My changes again*/
+}
+#interview_tricks img:hover {
+	opacity: 0;
+}
+.content_triangle{
+	width: 45%;
+}
+#contact p {
+	float: left;
+	color: #4196B4;
+	margin-left: 30%;
+}
+#contact a {
+	color: #FF7E2E;
+	text-decoration: none;
+}
+#contact a:hover {
+	color: #4196B4;
+}
+#contact {
+	float: left;
+	margin-top: 20px;
+	border-top: 3px #4196B4 solid;
+}
+#contact p:first-child {
+	padding-top: 20px;
+}
+#contact p:last-child {
+	padding-bottom: 20px;
+}
+footer {
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 3px #4196B4 solid;
+}
+footer p {
+	color: #FF7E2E;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+#content_selection img:first-child {
+	padding-left: 10%;
+}
+#tips img {
+    opacity: 1;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+}
+#tips img:hover {
+	opacity: 0;
+}
+#tips img {
+	position: absolute;
+	width: 40%;
+	padding-left: 5%;
+	padding-top: 20px;
+	float: left;
+}
+#interviews img {
+	position: absolute;
+	width: 40%;
+	padding-left: 50%;
+	padding-top: 20px;
+	float: right;
+ }
+ #interviews img:first-child {
+	opacity: 1;
+	transition: opacity .3s ease-out;
+	-moz-transition: opacity .3s ease-out;
+	-webkit-transition: opacity .3s ease-out;
+	-o-transition: opacity .3s ease-out;
+ }
+ #interviews img:hover {
+	opacity: 0;
+ }
+ #about p {
+	color: #4196B4;
+	padding-left: 20%;
+	padding-right: 5%;
+	padding-top: 10px;
+ }
+ #about h1 {
+	color: #FF7E2E;
+	font-size: 200%;
+	padding-top: 50px;
+	padding-left: 20%;
+ }

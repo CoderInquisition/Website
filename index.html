@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+		Coder Inquisition
+		</title>
+		<link href="css/reset.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/default/default.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    </head>
+	<body>
+		<header>
+			<img src="images/ci_logo.png" id="logo">
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="videos.html">Videos</a></li>
+				<li><a href="about.html">About Us</a></li>
+			</ul>
+		</nav>
+		<section id="latest_videos">
+			<h1>Latest Videos</h1><br />
+			<!-- VIDEOS WILL GO HERE -->
+			<!--<div class="video_placeholder"></div>
+			<div class="video_placeholder"></div>
+			<div class="video_placeholder"></div>-->
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <a href="videos.html"><img src="images/Pixar/toystory.jpg" data-thumb="images/toystory.jpg" alt="" data-transition="slideInLeft" title="This is me testing" /></a>
+                    <a href="http://dev7studios.com"><img src="images/Pixar/up.jpg" data-thumb="images/up.jpg" alt="" data-transition="slideInLeft" title="This is an example of a caption" /></a>
+                    <img src="images/Pixar/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+                    <img src="images/Pixar/nemo.jpg" data-thumb="images/nemo.jpg" alt="" data-transition="slideInLeft" title="#htmlcaption" />
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+                </div>
+            </div><br />
+		</section>
+		<!--<section id="main_content">
+			<div id="our_videos"><img src="images/videos_box_blue.png">
+			    <img src="images/videos_box_orange.png">
+			</div>
+			<div id="interview_tricks"><img src="images/interview_tricks_box_blue.png">
+			    <img src="images/interview_tricks_box_orange.png">
+			</div>
+		</section>-->
+		<section id="contact">
+			<p>Never miss an update! Follow us on YouTube, Facebook, and Twitter to get news, hear more interview tips and tricks, and see all of our videos right from the comfort of your favorite feed. Everyone who told you about the power of social media in the job search would be so proud.</p>
+			<p><a href="https://twitter.com/CodeInquisition">@CodeInquisition</a><p>
+			<p><a href="https://www.facebook.com/CoderInquisition">Coder Inquisition on Facebook</a></p>
+			<p><a href="http://www.youtube.com/channel/UCPnjHwLlPhyLJtIYHAtRZKg">Coder Inquisition on YouTube</a></p>
+		</section>
+		<footer>
+			<p>
+				2014, Coder Inquisition
+			</p>
+		</footer>
+        <script type="text/javascript" src="js/scripts/jquery-1.9.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+        <script type="text/javascript">
+            $(window).load(function () {
+                $('#slider').nivoSlider();
+            });
+        </script>
+	</body>
+<html>
